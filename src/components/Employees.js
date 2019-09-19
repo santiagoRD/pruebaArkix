@@ -1,8 +1,10 @@
 //Librerias
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
 //Componentes
 import Employee from "./Employee.js";
+
 //Styles
 import "../styles/Employees.css";
 

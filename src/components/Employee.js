@@ -1,8 +1,13 @@
+//Librerias
 import React from "react";
-import { Link } from "react-router-dom";
-import { BASE_URL } from "../config.js";
 import axios from "axios";
 import Swal from "sweetalert2";
+import { Link } from "react-router-dom";
+
+//Config
+import { BASE_URL } from "../config.js";
+
+//Styles
 import "../styles/Employee.css";
 
 const Employee = ({

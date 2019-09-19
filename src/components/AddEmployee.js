@@ -1,7 +1,12 @@
+//Librerias
 import React, { useState } from "react";
-import axios from "axios";
-import { BASE_URL } from "../config.js";
 import { withRouter } from "react-router-dom";
+import axios from "axios";
+
+//Config
+import { BASE_URL } from "../config.js";
+
+//Styles
 import "../styles/AddEmployee.css";
 
 const AddEmployee = ({ updateEmployees, history }) => {

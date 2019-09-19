@@ -9,7 +9,7 @@ import {
 import axios from "axios";
 import { BASE_URL } from "./config.js";
 
-//Components
+//Componentes
 import Header from "./components/Header";
 import Employees from "./components/Employees";
 import AddEmployee from "./components/AddEmployee";
