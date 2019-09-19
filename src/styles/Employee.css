@@ -1,0 +1,52 @@
+.employees_container-inferior-elements {
+  background: #283231;
+  margin: 20px 0;
+  border-radius: 15px;
+  padding: 10px 20px;
+  color: white;
+  width: 300px;
+}
+
+.elements-span {
+  font-weight: bold;
+  color: white;
+}
+
+.employees_container-inferior-buttons {
+  display: flex;
+  justify-content: center;
+  padding: 25px 0;
+}
+
+.employees_container-inferior-edit {
+  text-decoration: none;
+  color: #283231;
+  background: white;
+  width: 70px;
+  padding: 5px 10px;
+  margin-right: 20px;
+  text-align: center;
+  border: none;
+  font-weight: bold;
+  border-radius: 15px;
+}
+
+.employees_container-inferior-delete {
+  background: tomato;
+  border: none;
+  width: 70px;
+  padding: 5px 0;
+  color: white;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+}
+.employees_container-inferior-delete:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .employees_container-inferior-elements {
+    margin: 15px;
+  }
+}
